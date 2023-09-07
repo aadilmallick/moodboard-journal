@@ -14,7 +14,6 @@ const NewEntry = () => {
             url: API.JOURNAL,
             method: "POST",
           });
-          // router.push(`/journal/${entry.id}`);
           router.refresh();
         }}
       >

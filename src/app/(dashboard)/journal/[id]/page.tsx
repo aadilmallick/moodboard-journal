@@ -44,28 +44,7 @@ const page = async ({ params: { id } }: Props) => {
   const analysisArray = [];
   return (
     <>
-      {/* <div className="col-span-2"> */}
       <Editor journalEntry={entry as JournalEntry} />
-      {/* </div> */}
-      {/* <div className="col-span-1">
-      <h2>Analysis</h2>
-      <div className="flex flex-col gap-2">
-        <p className="border-b">Mood: {entry.analysis?.mood}</p>
-        <p className="border-b flex items-center">
-          Color:{" "}
-          <span
-            className="inline-block h-4 w-4 rounded-full ml-4"
-            style={{
-              backgroundColor: entry.analysis?.color,
-            }}
-          ></span>
-        </p>
-        <p className="border-b">
-          Tone: {entry.analysis?.negative === true ? ":(" : ":)"}
-        </p>
-        <p className="border-b">Summary: {entry.analysis?.summary}</p>
-      </div>
-    </div> */}
     </>
   );
 };

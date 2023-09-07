@@ -66,10 +66,6 @@ export async function analyze(journalEntry: string) {
   return result;
 }
 
-// analyze(
-//   "I am happy today. For some reason, there's a smile on my face. I'm not sure why. I'm just happy. I finally did guitar for the first time in a month. I feel like things are looking up."
-// );
-
 export async function qa(
   entries: {
     id: string;
